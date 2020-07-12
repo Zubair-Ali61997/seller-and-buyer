@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+    {
+      	string seller;
+      	string buyer;
+      	string ans;
+      	string ans1;
+      	string ans2;
+      	string ans3;
+      	string ans4;
+      	cout<<"Buyer : assalam u alikum"<<endl;
+      	cin>>ans;
+      	cout<<" buyer : bhai ye mobile kitne ka hai"<<endl;
+      	cin>>ans1;
+      	if (ans1=="15000")
+      	{
+      		cout<<"buyer : bhai 13000 krlen"<<endl;
+      		cin>>ans2;
+      		if (ans2 == "14500")
+      		cout<<"buyer : nai bhai 13500 krlen is se zada nai "<<endl;
+      		cin>>ans3;
+      		if(ans3 == "14000")
+      		cout<<"buyer : nai bhai 13500 sahi hai"<<endl;
+      		cout<<"seller : bhai 14000 se kam nai hoga\n ager lena hai to bataye";
+      		cin>>ans4;
+			  if (ans4 == "no"   )
+      		{
+      			cout<<"bhai mene itne ka nai bechana"<<endl;
+			  }
+			  else 
+			  if(ans4 == "okay")
+			  
+      		  cout<<"ye len apka mobile"<<endl;
+		}     
+		  return 0;
+	   }	
+	
